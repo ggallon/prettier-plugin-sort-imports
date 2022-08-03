@@ -6,7 +6,7 @@ title: ''
 assignees: ''
 ---
 
-<!-- PLEASE READ THIS:  
+<!-- PLEASE READ THIS:
  - If you are not sure is a bug, OPEN a DISCUSSION, if is a legitimate bug, is easy to create a bug from a discussion.
  - Empty reports won't be considered and eventually be closed by a bot.
  - Include debugging notes will help to fix it faster.
@@ -18,10 +18,11 @@ assignees: ''
 -->
 
 **Your Environment**
- * **Prettier version**: 2.x.x
- * **node version** [12.x.x, 14.x.x]:
- * **package manager**: [npm@7, pnpm@6, yarn@2]
- * **IDE**: [VScode, Webstorm, CLI]
+
+-   **Prettier version**: 2.x.x
+-   **node version** [12.x.x, 14.x.x]:
+-   **package manager**: [npm@7, pnpm@6, yarn@2]
+-   **IDE**: [VScode, Webstorm, CLI]
 
 **Describe the bug**
 
@@ -52,9 +53,9 @@ Be aware, the lack of reproducible steps the issue might cause your ticket to be
 
 <!-- A clear and concise description. -->
 
-**Contribute to @trivago/prettier-plugin-sort-imports**
+**Contribute to @ggallon/prettier-plugin-sort-imports**
 
-- [ ] I'm willing to fix this bug 🥇 
+-   [ ] I'm willing to fix this bug 🥇
 
 <!--
 
