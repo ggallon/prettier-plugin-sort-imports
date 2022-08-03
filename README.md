@@ -2,7 +2,16 @@
 
 A prettier plugin to sort import declarations by provided Regular Expression order.
 
+This was forked from https://github.com/trivago/prettier-plugin-sort-imports.
+The main difference is that this project will not lock version at the package level and ask projects to use overide.
+
+More features and fixes will be added. As a result, this repository aims to remain compatible with the upstream version, but may continue to gain features not present in the original version of the plugin.
+
+[We welcome contributions!](./CONTRIBUTING.md)
+
 **Note: If you are migrating from v2.x.x to v3.x.x, [Please Read Migration Guidelines](./docs/MIGRATION.md)**
+
+## Sample
 
 ### Input
 
@@ -24,7 +33,6 @@ import { initializeApp } from '@core/app';
 import { Popup } from '@ui/Popup';
 import { createConnection } from '@server/database';
 ```
-
 
 ### Output
 
@@ -53,16 +61,12 @@ import { add, filter, repeat } from '../utils';
 
 ### Install
 
-npm
-
 ```shell script
-npm install --save-dev @trivago/prettier-plugin-sort-imports
-```
-
-or, using yarn
-
-```shell script
-yarn add --dev @trivago/prettier-plugin-sort-imports
+npm install @ggallon/prettier-plugin-sort-imports --save-dev
+# or
+yarn add @ggallon/prettier-plugin-sort-imports --dev
+# or
+pnpm add @ggallon/prettier-plugin-sort-imports --dev
 ```
 
 **Note: If you are migrating from v2.x.x to v3.x.x, [Please Read Migration Guidelines](./docs/MIGRATION.md)**
@@ -213,25 +217,10 @@ Having some trouble or an issue ? You can check [FAQ / Troubleshooting section](
 | Vue                    | ⚠️ Soon to be supported. | Any contribution is welcome.                     |
 | Svelte                 | ⚠️ Soon to be supported. | Any contribution is welcome.                     |
 
-### Used by
-
-Want to highlight your project or company ? Adding your project / company name will help plugin to gain attraction and contribution.
-Feel free to make a Pull Request to add your project / company name.
-
--   [trivago](https://company.trivago.com)
--   ADD YOUR PROJECT / COMPANY NAME
-
 ### Contribution
 
 For more information regarding contribution, please check the [Contributing Guidelines](./CONTRIBUTING.md). If you are trying to
 debug some code in the plugin, check [Debugging Guidelines](./docs/DEBUG.md)
-
-### Maintainers
-
-| [Ayush Sharma](https://github.com/ayusharma)                             | [Behrang Yarahmadi](https://github.com/byara)                         |
-| ------------------------------------------------------------------------ | --------------------------------------------------------------------- |
-| ![ayusharma](https://avatars2.githubusercontent.com/u/6918450?s=120&v=4) | ![@byara](https://avatars2.githubusercontent.com/u/6979966?s=120&v=4) |
-| [@ayusharma\_](https://twitter.com/ayusharma_)                           | [@behrang_y](https://twitter.com/behrang_y)                           |
 
 ### Disclaimer
 

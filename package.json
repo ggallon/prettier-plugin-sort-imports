@@ -1,13 +1,13 @@
 {
-  "name": "@trivago/prettier-plugin-sort-imports",
-  "version": "3.3.0",
+  "name": "@ggallon/prettier-plugin-sort-imports",
+  "version": "3.4.0",
   "description": "A prettier plugins to sort imports in provided RegEx order",
   "main": "lib/src/index.js",
   "repository": {
-    "url": "https://github.com/trivago/prettier-plugin-sort-imports",
+    "url": "https://github.com/ggallon/prettier-plugin-sort-imports",
     "type": "git"
   },
-  "homepage": "https://github.com/trivago/prettier-plugin-sort-imports#readme",
+  "homepage": "https://github.com/ggallon/prettier-plugin-sort-imports#readme",
   "scripts": {
     "prepare": "yarn run compile",
     "compile": "tsc",
@@ -25,11 +25,18 @@
     "typescript",
     "javascript"
   ],
-  "author": {
-    "name": "Ayush Sharma",
-    "email": "ayush.sharma@trivago.com",
-    "url": "https://github.com/ayusharma"
-  },
+  "contributors": [
+    {
+      "name": "Ayush Sharma",
+      "email": "ayush.sharma@trivago.com",
+      "url": "https://github.com/ayusharma"
+    },
+    {
+      "name": "Gwenaël Gallon",
+      "email": "gwenaelgallon@mac.com",
+      "url": "https://github.com/ggallon"
+    }
+  ],
   "license": "Apache-2.0",
   "dependencies": {
     "@babel/core": "7.17.8",
