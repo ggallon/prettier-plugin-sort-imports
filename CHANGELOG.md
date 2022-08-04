@@ -2,7 +2,12 @@
 
 ---
 
-### v3.3.1
+### v3.4.1
+
+#### Chore
+-   Bump dependecnies
+
+### v3.4.0
 
 #### Chores
 
