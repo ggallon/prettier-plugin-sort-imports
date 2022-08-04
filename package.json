@@ -1,6 +1,6 @@
 {
   "name": "@ggallon/prettier-plugin-sort-imports",
-  "version": "3.4.0",
+  "version": "3.4.1",
   "description": "A prettier plugins to sort imports in provided RegEx order",
   "main": "lib/src/index.js",
   "repository": {
